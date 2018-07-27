@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReactiveSwiftCoreData_Example' do
+  pod 'ReactiveSwiftCoreData', :path => '../'
+
+  target 'ReactiveSwiftCoreData_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

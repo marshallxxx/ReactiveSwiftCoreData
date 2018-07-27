@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F071534210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F071530210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveContextTests.swift */; };
+		3F071535210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F071531210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveObjectTests.swift */; };
+		3F071536210BC7CF0019C6A9 /* NSManagedObjectContext+PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F071532210BC7CF0019C6A9 /* NSManagedObjectContext+PerformanceTests.swift */; };
+		3F071537210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F071533210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveResultTests.swift */; };
+		3F5281D5210BBEF90037B7F6 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F5281D3210BBEF90037B7F6 /* Contacts.xcdatamodeld */; };
+		3F5281D9210BBF400037B7F6 /* NSManagedObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5281D6210BBF400037B7F6 /* NSManagedObject+Extensions.swift */; };
+		3F5281DA210BBF400037B7F6 /* NSManagedObjectContext+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5281D7210BBF400037B7F6 /* NSManagedObjectContext+Test.swift */; };
+		3F5281DB210BBF400037B7F6 /* Bundle+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5281D8210BBF400037B7F6 /* Bundle+Test.swift */; };
 		5A2CA3DD74C888BEF5F4272B /* Pods_ReactiveSwiftCoreData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457615CAFBEA4AC9881B5864 /* Pods_ReactiveSwiftCoreData_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B8AA46B123D165A6F2DFCA2C /* Pods_ReactiveSwiftCoreData_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A098C900234AFF4FDBFB15 /* Pods_ReactiveSwiftCoreData_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +36,14 @@
 
 /* Begin PBXFileReference section */
 		1777FAD022FEC5557F59F69A /* Pods-ReactiveSwiftCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCoreData_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftCoreData_Tests/Pods-ReactiveSwiftCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F071530210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveContextTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+ObserveContextTests.swift"; sourceTree = "<group>"; };
+		3F071531210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveObjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+ObserveObjectTests.swift"; sourceTree = "<group>"; };
+		3F071532210BC7CF0019C6A9 /* NSManagedObjectContext+PerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+PerformanceTests.swift"; sourceTree = "<group>"; };
+		3F071533210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+ObserveResultTests.swift"; sourceTree = "<group>"; };
+		3F5281D4210BBEF90037B7F6 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
+		3F5281D6210BBF400037B7F6 /* NSManagedObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Extensions.swift"; sourceTree = "<group>"; };
+		3F5281D7210BBF400037B7F6 /* NSManagedObjectContext+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Test.swift"; sourceTree = "<group>"; };
+		3F5281D8210BBF400037B7F6 /* Bundle+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Test.swift"; sourceTree = "<group>"; };
 		457615CAFBEA4AC9881B5864 /* Pods_ReactiveSwiftCoreData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwiftCoreData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ReactiveSwiftCoreData_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSwiftCoreData_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,12 +54,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ReactiveSwiftCoreData_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSwiftCoreData_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		70FF87BCA6A692B7B1A5B87C /* ReactiveSwiftCoreData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReactiveSwiftCoreData.podspec; path = ../ReactiveSwiftCoreData.podspec; sourceTree = "<group>"; };
+		70FF87BCA6A692B7B1A5B87C /* ReactiveSwiftCoreData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReactiveSwiftCoreData.podspec; path = ../ReactiveSwiftCoreData.podspec; sourceTree = "<group>"; };
 		956337D282EB99661134E929 /* Pods-ReactiveSwiftCoreData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCoreData_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftCoreData_Example/Pods-ReactiveSwiftCoreData_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9807F1E19320E30F61F0ACE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9807F1E19320E30F61F0ACE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A4A098C900234AFF4FDBFB15 /* Pods_ReactiveSwiftCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwiftCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADEFE48B9FF817604F464330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ADEFE48B9FF817604F464330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F153E1A00B5A53A2CEFF8345 /* Pods-ReactiveSwiftCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCoreData_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftCoreData_Example/Pods-ReactiveSwiftCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F368F4FFF94957834D585447 /* Pods-ReactiveSwiftCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftCoreData_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftCoreData_Tests/Pods-ReactiveSwiftCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +90,24 @@
 				457615CAFBEA4AC9881B5864 /* Pods_ReactiveSwiftCoreData_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F70EEEA210BBEA7002CFB12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F5281D3210BBEF90037B7F6 /* Contacts.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F70EEEB210BBEAD002CFB12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3F5281D8210BBF400037B7F6 /* Bundle+Test.swift */,
+				3F5281D6210BBF400037B7F6 /* NSManagedObject+Extensions.swift */,
+				3F5281D7210BBF400037B7F6 /* NSManagedObjectContext+Test.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -124,8 +156,13 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				3F70EEEB210BBEAD002CFB12 /* Utils */,
+				3F70EEEA210BBEA7002CFB12 /* Resources */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				3F071530210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveContextTests.swift */,
+				3F071531210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveObjectTests.swift */,
+				3F071533210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveResultTests.swift */,
+				3F071532210BC7CF0019C6A9 /* NSManagedObjectContext+PerformanceTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -215,11 +252,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 897M825K84;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -304,11 +342,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwiftCoreData_Example/Pods-ReactiveSwiftCoreData_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwiftCoreData/ReactiveSwiftCoreData.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwiftCoreData.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -379,7 +421,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				3F5281D9210BBF400037B7F6 /* NSManagedObject+Extensions.swift in Sources */,
+				3F071534210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveContextTests.swift in Sources */,
+				3F5281DB210BBF400037B7F6 /* Bundle+Test.swift in Sources */,
+				3F071535210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveObjectTests.swift in Sources */,
+				3F5281D5210BBEF90037B7F6 /* Contacts.xcdatamodeld in Sources */,
+				3F071536210BC7CF0019C6A9 /* NSManagedObjectContext+PerformanceTests.swift in Sources */,
+				3F5281DA210BBF400037B7F6 /* NSManagedObjectContext+Test.swift in Sources */,
+				3F071537210BC7CF0019C6A9 /* NSManagedObjectContext+ObserveResultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +566,7 @@
 			baseConfigurationReference = 956337D282EB99661134E929 /* Pods-ReactiveSwiftCoreData_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 897M825K84;
 				INFOPLIST_FILE = ReactiveSwiftCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +582,7 @@
 			baseConfigurationReference = F153E1A00B5A53A2CEFF8345 /* Pods-ReactiveSwiftCoreData_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 897M825K84;
 				INFOPLIST_FILE = ReactiveSwiftCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +597,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1777FAD022FEC5557F59F69A /* Pods-ReactiveSwiftCoreData_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -558,6 +610,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSwiftCoreData_Example.app/ReactiveSwiftCoreData_Example";
@@ -568,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F368F4FFF94957834D585447 /* Pods-ReactiveSwiftCoreData_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -613,6 +667,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F5281D3210BBEF90037B7F6 /* Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F5281D4210BBEF90037B7F6 /* Contacts.xcdatamodel */,
+			);
+			currentVersion = 3F5281D4210BBEF90037B7F6 /* Contacts.xcdatamodel */;
+			path = Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

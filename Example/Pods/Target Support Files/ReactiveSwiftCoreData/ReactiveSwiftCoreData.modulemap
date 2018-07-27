@@ -1,0 +1,6 @@
+framework module ReactiveSwiftCoreData {
+  umbrella header "ReactiveSwiftCoreData-umbrella.h"
+
+  export *
+  module * { export * }
+}

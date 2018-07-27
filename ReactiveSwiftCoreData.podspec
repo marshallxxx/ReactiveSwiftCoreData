@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ReactiveSwiftCoreData'
-  s.version          = '0.9.0'
+  s.version          = '0.8.0'
   s.summary          = 'ReactiveSwift wrapper on CoreData'
   s.description      = <<-DESC
 Add reactive extension on NSManagedObjectContext to observe context changes.

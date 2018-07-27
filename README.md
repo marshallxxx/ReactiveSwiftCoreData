@@ -40,8 +40,6 @@ Every time objects are deleted or inserted in managed object context it will fet
 ReactiveSwiftCoreData is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-####Not pushed to specs repo yet!
-
 ```ruby
 pod 'ReactiveSwiftCoreData'
 ```
